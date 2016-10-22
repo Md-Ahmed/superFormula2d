@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+canvas {
+	display: block;
+}
+.options {
+	position: absolute;
+	top: 0;
+	height: 220px;
+	width: 100%;
+}
+.dark {
+	background-color: #333;
+	color: white;
+}
+.options > p {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: sans-serif;
+	text-align: right;
+}
+.options input {
+	margin-left: 10px;
+}
+.more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	vertical-align: middle;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+.hidden { 
+	visibility: hidden;
+	display: none;
+}

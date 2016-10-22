@@ -1,0 +1,21 @@
+<!doctype html> 
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title> Super Formula Test </title>
+	<script src="main.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+	<div class="options dark">
+		<p>M: <input type='number' oninput="m = this.value;" value="8"></p>
+		<p>N1: <input type='number' oninput="n1 = this.value;" value="1"></p>
+		<p>N2: <input type='number' oninput="n2 = this.value;" value="1"></p>
+		<p>N3: <input type='number' oninput="n3 = this.value;" value="1"></p>
+		<p>Clear: <input type='checkbox' onclick='cclear=this.checked;' checked> MultiColor: <input type='checkbox' onclick='color=this.checked'></p>
+	</div>
+	<div class="dark more" onclick="document.querySelector('.options').classList.toggle('hidden')">+</div>
+</body>
+</html>
